@@ -36,7 +36,7 @@ template<class T>
 class LinkedList
 {
 private:
-	int length;        //目前容量
+	int length;        //目前容量 
 	LinkNode<T>* first;   //头节点(指向第一个节点)
 	LinkNode<T>* last;    //尾结点(指向最后一个节点)
 
